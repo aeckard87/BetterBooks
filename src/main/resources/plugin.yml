@@ -1,0 +1,53 @@
+name: BetterBooks
+main: com.gmail.vkhanh234.BetterBooks.BetterBooks
+version: 1.0
+author: aeckard
+
+commands:
+    BetterBooks:
+        reload:
+            description: Reload BetterBooks
+            permission: BetterBooks.command.reload
+            usage: Syntax error! Simply type /bb reload
+        list:
+            description: List of books
+            permission: BetterBooks.command.list
+            usage: Syntax error! Simply type /bb list
+        get:
+            description: Get a specific book
+            permission: BetterBooks.command.get
+            usage: |
+                /<command> [book-id]
+                Example: /<command> exmple - Get a specific book named Example
+        give:
+            description: give a specific book to a player
+            permission: BetterBooks.command.give
+            usage: |
+                /<command> [book-id] [player]
+                Example: /<command> example bloomindaisy - Gives the book example to bloomindaisy
+        convert:
+            description: Convert the book in your hand into a BetterBooks book/
+            permission: BetterBooks.command.convert
+            usage: |
+                /<command> [book-id]
+                Example: /<command> example - Converts the book in your hand into a BetterBook book named example
+        aliases: [betterbooks,bbook,bb]
+        
+
+permissions:
+    BetterBooks.command.list:
+        description: Allows you to use list command.
+        default: op
+    BetterBooks.command.get:
+        description: Allows you to use get command.
+        default: op
+    BetterBooks.command.give:
+        description: Allows you to use give command.
+        default: op
+    BetterBooks.command.reload:
+        description: Allows you to use reload command.
+        default: op
+    BetterBooks.command.convert:
+        description: Allows you to use convert command.
+        default: op
+            
