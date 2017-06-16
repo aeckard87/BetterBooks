@@ -1,6 +1,6 @@
 # BetterBooks
 ## Built with Maven
-
+[![Dependency Status](https://gemnasium.com/badges/github.com/aeckard87/BetterBooks.svg)](https://gemnasium.com/github.com/aeckard87/BetterBooks)
 ### This is directly from [BetterBooks](https://www.spigotmc.org/resources/betterbooks.18496/ "BetterBooks main site on Spigot") found on spigot's site created by [KickVN](https://www.spigotmc.org/resources/authors/kickvn.54834/ "KickVN's spigot profile") 
 ---
 > I decompiled the jar - updated some dependencies - and found some deprecated parts in the code. Example - itemToolTip is no longer available from one of the API's used here.
